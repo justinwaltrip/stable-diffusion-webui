@@ -13,13 +13,13 @@
 #export COMMANDLINE_ARGS=""
 
 # python3 executable
-python_cmd="/nix/store/0p84fpx4vrdnxb0rpmxm8vw5174zw580-python3-3.10.18-env/bin/python"
+# python_cmd="/nix/store/0p84fpx4vrdnxb0rpmxm8vw5174zw580-python3-3.10.18-env/bin/python"
 
 # git executable
 #export GIT="git"
 
 # python3 venv without trailing slash (defaults to ${install_dir}/${clone_dir}/venv)
-#venv_dir="venv"
+venv_dir=".devenv/state/venv"
 
 # script to launch to start the app
 #export LAUNCH_SCRIPT="launch.py"
