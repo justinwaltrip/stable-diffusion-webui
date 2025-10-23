@@ -42,3 +42,13 @@ notification.mp3
 /cache
 trace.json
 /sysinfo-????-??-??-??-??.json
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
